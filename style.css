@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a.contact-btn {
+    border: 2px solid #7a52f1;
+    color: #7a52f1;
+    
+}
+nav ul li hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+nav a.contact-btn:hover {
+    background-color: #7a52f1;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #fff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.active{
+    color:#5E3BEE
+    ;
+}
+.hero-text h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero-text h1 span {
+    color: #7a52f1;
+}
+
+.hero-text .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7a52f1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-text .btn:hover {
+    background-color: #593bb5;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+/* griddd */
+.expertise {
+    text-align: left;
+    padding: 20px 10px;
+    border: 2px  lightblue;
+    
+}
+
+.expertise h3 {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+    padding-left: 60px;
+    border: 2px lightblue;
+    margin-top: 40px;
+    
+}
+.expertise-cards .one{
+    border-bottom: 3px solid #5E3BEE;
+}
+.expertise h1 {
+    font-size: 36px;
+    margin: 10px 0 30px;
+    padding-left: 60px;
+    border: 2px lightblue;
+}
+
+.expertise-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    flex-wrap: wrap;
+    border: 2px  lightblue;
+    padding: 80px;
+}
+
+.card {
+    background-color: #F5FCFF;
+    border: 2px lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card .icon {
+    margin-right: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    margin-right: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+/* about */
+.about-me {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px  lightblue;
+    gap: 60px;
+}
+
+.image-container {
+    flex: 1;
+    position: relative;
+    max-width: 400px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 600px;
+    
+
+    
+    position: relative;
+    z-index: 1;
+    left: 50px;
+}
+
+
+.text-container {
+    width: 100px;
+    flex: 2;
+    padding: 20px;
+
+}
+
+.text-container h3 {
+    font-size: 18px;
+    color: #666;
+    margin: 0 0 10px;
+    margin-left: 30px;
+}
+
+.text-container h1 {
+    font-size: 36px;
+    margin: 0 0 20px;
+    margin-left: 30px;
+}
+
+.text-container p {
+    width: 630px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 0 20px;
+    margin-left: 30px;
+}
+/* portifol */
+.portfolio {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.containersss {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.header h2 {
+    font-size: 20px;
+    color: #666;
+    margin: 0;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.header .visit-dribbble {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 10px 10px;
+    background-color: #ff4081;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.header .visit-dribbble:hover {
+    background-color: #e6376d;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 24px;
+    width: 30%;
+    
+    border-radius: 8px;
+    text-align: left;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+}
+
+.view-dribbble {
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-dribbble:hover {
+    text-decoration: underline;
+}
+.visit-dribbble img{
+    width: 17px;
+    margin-right: 8px;
+    margin-top: 6px;
+}
+hr{
+    width: 140px;
+    margin-top: 5px;
+
+background-color: #5E3BEE
+;
+}
+
+/* stars */
+.testimonials {
+    padding: 40px 20px;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+.containerfour {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonials h2 {
+    font-size: 20px;
+    color: #666;
+    margin: 0;
+    text-align: left;
+}
+
+.testimonials h1 {
+    font-size: 36px;
+    margin: 10px 0 40px;
+    text-align: left;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border: 2px solid #006B6A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.rating span {
+    color: #00695c;
+    font-size: 20px;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+}
+
+.customer-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.customer-info h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.customer-info p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+}
+/* contact */
+
+.contact-container {
+    
+    padding: 40px;
+    border-radius: 8px;
+    
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    color: #333;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #000;
+}
+
+p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+}
+
+
+.input-group {
+    display: flex;
+    gap: 25px;
+    
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid #5E3BEE;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6200ea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+/* foot */
+.footer {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo {
+    position: relative;
+    max-width: 140px;
+    margin-right: 80%;
+    top: 50px;
+}
+
+.footer-nav, .footer-legal {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-nav a, .footer-legal a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+    margin-left: 80%;
+    position: relative;
+    bottom: 50px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+  
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.heart {
+    color: #e25555;
+}
